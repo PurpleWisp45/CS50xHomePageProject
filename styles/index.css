@@ -1,0 +1,14 @@
+.bg-purple {
+  background-color: var(--bs-indigo) !important;
+}
+
+.main-img-container {
+  position: relative;
+  width: 100%;
+}
+
+.greeting {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
