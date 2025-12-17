@@ -5,51 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PurpleWisp45's Homepage!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="icon" type="image/png" href="images/Wisp_Purple.png">
   </head>
   <body>
     <header>
-      <nav class="navbar fixed-top navbar-expand-lg bg-purple navbar-" data-bs-theme="dark">
+      <nav class="navbar fixed-top navbar-expand-lg main-nav">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">PurpleWisp45</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <img src="images/Wisp_Purple.png" alt="Purple Wisp" height="28">
+          <a href="#" class="navbar-brand">PurpleWisp45</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">School</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Hobbies</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+              <a href="" class="nav-item nav-link active">Home</a>
+              <a href="" class="nav-item nav-link">Hobbies</a>
+              <a href="" class="nav-item nav-link">School</a>
+            </div>
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <div class="main-img-container">
-        <img src="images/stars-1869692_1920.jpg" alt="A night sky full of stars. Image by Pexels from Pixabay">
-        <div class="greeting">
-          <h1>Hi!👋 I'm PurpleWisp45!</h1>
+      <section class="hero">
+        <div class="main-profile-container d-flex flex-column align-items-center text-center">
+          <div class="main-img-container">
+            <img class="main-profile-img" src="images/Wisp_Purple.png" alt="Purple Wisp Profile Picture">
+          </div>
+          <div class="main-greeting-container">
+            <h1>Hi!👋 I'm PurpleWisp45!</h1>
+            <h2>Nice to meet you!</h2>
+          </div>
         </div>
-      </div>
+      </section>
       
-      <h2>❓ About Me</h2>
-      <p>I'm a free spirit trying to learn Computer Science and Robotics.</p>
-      <h2>📫 Contact Info</h2>
-      <ul>
-        <li>Email: <a href="">goldmineore@gmail.com</a></li>
-        <li>Twitter/X: Huh?</li>
-        <li>Reddit: Nope</li>
-        <li>LinkedIn: LOL</li>
-      </ul>
+      <section class="row justify-content-center mt-5">
+        <div class="col-sm-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">❓ About Me</h5>
+              <p class="card-text">I'm a free spirit currently learning Front-End Web Development using HTML, CSS, and JavaScript!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title">📫 Connect with Me</h5>
+              <ul class="list-group list-group-flus">
+                <li class="list-group-item">Email: goldmineore@gmail.com</li>
+                <li class="list-group-item">Twitter/X: Huh?</li>
+                <li class="list-group-item">Reddit: Nope</li>
+                <li class="list-group-item">LinkedIn: LOL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
 </html>

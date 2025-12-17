@@ -1,14 +1,38 @@
-.bg-purple {
-  background-color: var(--bs-indigo) !important;
+body {
+  padding-top: 70px;
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/stars-1869692_1920.jpg");
+  background-repeat: repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+}
+
+.hero {
+  margin-top: 100px;
+}
+
+.main-nav {
+  background-color: #6610f2;
 }
 
 .main-img-container {
-  position: relative;
-  width: 100%;
+  background-color: black;
+
+  border: 5px solid white;
+  border-radius: 50%;
+} 
+
+.main-profile-img {
+  height: 150px;
+  width: 150px;
 }
 
-.greeting {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.main-greeting-container {
+  margin-top: 10px;
+
+  font-family: "Chewy", system-ui;
 }
+
